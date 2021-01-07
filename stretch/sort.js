@@ -1,5 +1,4 @@
 // Sorting an array in numerical order
-
 const array1 = [10, 2, 5, 1, 9];
 console.log(array1.sort((a,b) => a - b ));
 
