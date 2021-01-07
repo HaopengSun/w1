@@ -1,3 +1,7 @@
+// A function closure has access to its parents' variables after the parent function has returned
+// Lexical scoping means that the variables are not deallocated
+// and therefore accessible after the parent function finishes executing
+
 const wrapLog = function (callback, name) {
   if (name === 'area'){
     return function(x, y){
